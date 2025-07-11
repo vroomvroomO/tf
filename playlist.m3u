@@ -277,13 +277,14 @@ https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 
 #EXTINF:-1 tvg-chno="202" tvg-id="ZDF.de" "tvg-name="ZDF.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/250px-ZDF_logo.svg.png" group-title="DEUTSCHLAND",ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
-3sat
+
+#EXTINF:-1 tvg-chno="203" tvg-id="3sat.ch" "tvg-name="3sat.ch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/330px-3sat_2019.svg.png" group-title="DEUTSCHLAND",3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
 
-#EXTINF:-1 tvg-chno="203" tvg-id="ONE.de" "tvg-name="ONE.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/250px-One_2022.svg.png" group-title="DEUTSCHLAND",Ard ONE
+#EXTINF:-1 tvg-chno="204" tvg-id="ONE.de" "tvg-name="ONE.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/250px-One_2022.svg.png" group-title="DEUTSCHLAND",Ard ONE
 https://mcdn-one.ard.de/ardone/hls/master.m3u8
 
-#EXTINF:-1 tvg-chno="204" tvg-id="ZDFneo.de" "tvg-name="ZDFneo.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ZDFneo_2017.svg/250px-ZDFneo_2017.svg.png" group-title="DEUTSCHLAND",ZDF Neo
+#EXTINF:-1 tvg-chno="205" tvg-id="ZDFneo.de" "tvg-name="ZDFneo.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ZDFneo_2017.svg/250px-ZDFneo_2017.svg.png" group-title="DEUTSCHLAND",ZDF Neo
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
 
 #EXTINF:-1 tvg-chno="301" tvg-id="LA 1.es" "tvg-name="LA 1.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_La_1.svg/250px-Logo_La_1.svg.png" group-title="ESPAÑA",tvE La 1
