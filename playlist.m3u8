@@ -1,6 +1,444 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #EXTM3U\
+\
+#EXTINF:-1 tvg-chno="1" tvg-id="Rai1.it" tvg-name="Rai1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1024px-Rai_1_-_Logo_2016.svg.png" group-title="ITALIA",Rai 1\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="2" tvg-id="Rai2.it" tvg-name="Rai2.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/250px-Rai_2_-_Logo_2016.svg.png" group-title="ITALIA",Rai 2\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="3" tvg-id="Rai3.it" tvg-name="Rai3.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/250px-Rai_3_-_Logo_2016.svg.png" group-title="ITALIA",Rai 3\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="4" tvg-id="Rete4.it" tvg-name="Rete4.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/250px-Rete_4_-_Logo_2018.svg.png" group-title="ITALIA",Rete 4\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="5" tvg-id="Canale5.it" tvg-name="Canale5.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/250px-Canale_5_-_2018_logo.svg.png" group-title="ITALIA",Canale 5\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="6" tvg-id="Italia1.it" tvg-name="Italia1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Italia_1.svg/150px-Italia_1.svg.png" group-title="ITALIA",Italia 1\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="7" tvg-id="La7.it" tvg-name="La7.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/330px-LA7_-_Logo_2011.svg.png" group-title="ITALIA",LA7\
+https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8\
+\
+#EXTINF:-1 tvg-chno="8" tvg-id="Tv8.it" tvg-name="Tv8.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6d/TV8_Logo_2016.svg/330px-TV8_Logo_2016.svg.png" group-title="ITALIA",TV8\
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d\
+\
+#EXTINF:-1 tvg-chno="9" tvg-id="Nove.it" tvg-name="Nove.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nove_-_Logo_2017.svg/330px-Nove_-_Logo_2017.svg.png" group-title="ITALIA",NOVE\
+https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="10" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Videolina_Logo.png/330px-Videolina_Logo.png" group-title="ITALIA",Videolina\
+https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/videolina/videolina_live/videolina_live/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="20" tvg-id="20.it" tvg-name="20.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/250px-20_Mediaset_2018.svg.png" group-title="ITALIA",20 Mediaset\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="21" tvg-id="Rai4.it" tvg-name="Rai4.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rai_4_-_Logo_2016.svg/250px-Rai_4_-_Logo_2016.svg.png" group-title="ITALIA",Rai 4\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="22" tvg-id="Iris.it" tvg-name="Iris.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Iris_logo_2013.svg/250px-Iris_logo_2013.svg.png" group-title="ITALIA",Iris\
+https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest_hr.mpd\
+\
+#EXTINF:-1 tvg-chno="23" tvg-id="Rai5.it" tvg-name="Rai5.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/250px-Rai_5_-_Logo_2017.svg.png" group-title="ITALIA",Rai 5\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="24" tvg-id="Rai Movie.it" tvg-name="Rai Movie.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rai_Movie_-_Logo_2017.svg/250px-Rai_Movie_-_Logo_2017.svg.png" group-title="ITALIA",Rai Movie\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="25" tvg-id="Rai Premium.it" tvg-name="Rai Premium.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rai_Premium_-_Logo_2017.svg/250px-Rai_Premium_-_Logo_2017.svg.png" group-title="ITALIA",Rai Premium\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="26" tvg-id="Cielo.it" tvg-name="Cielo.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cielo_TV_logo_2013.svg/330px-Cielo_TV_logo_2013.svg.png" group-title="ITALIA",Cielo\
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d\
+\
+#EXTINF:-1 tvg-chno="27" tvg-id="Twentyseven.it" tvg-name="Twentyseven.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/330px-Twentyseven_logo.svg.png" group-title="ITALIA",27 Twenty Seven\
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="28" tvg-id="Tv2000.it" tvg-name="Tv2000.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tv2000_-_Logo_2022.svg/250px-Tv2000_-_Logo_2022.svg.png" group-title="ITALIA",TV2000\
+https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="29" tvg-id="La7D.it" tvg-name="La7D.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/La7d_logo.svg/250px-La7d_logo.svg.png" group-title="ITALIA",LA7d\
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8\
+\
+#EXTINF:-1 tvg-chno="30" tvg-id="La5.it" tvg-name="La5.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/250px-La5_Mediaset.svg.png" group-title="ITALIA",La 5\
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="31" tvg-id="Realtime.it" tvg-name="Realtime.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Real_Time_logo.svg/330px-Real_Time_logo.svg.png" group-title="ITALIA",Real Time\
+https://amg16146-wbdi-amg16146c2-samsung-it-1835.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="32" tvg-id="Qvc.it" tvg-name="Qvc.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/250px-QVC_logo_2019.svg.png" group-title="ITALIA",QVC\
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="33" tvg-id="Food Network.it" tvg-name="Food Network.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/250px-Food_Network_logo.svg.png" group-title="ITALIA",Food Network\
+https://amg16146-wbdi-amg16146c3-samsung-it-1836.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="34" tvg-id="Cine34 HD.it" tvg-name="Cine34 HD.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cine34_logo.svg/250px-Cine34_logo.svg.png" group-title="ITALIA",Cine34\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="35" tvg-id="Focus.it" tvg-name="Focus.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Focus_channel.png/250px-Focus_channel.png" group-title="ITALIA",FOCUS\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="36" tvg-id="Rtl1025.it" tvg-name="Rtl1025.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/250px-RTL_102.5_logo.svg.png" group-title="ITALIA",RTL 102.5\
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8\
+\
+#EXTINF:-1 tvg-chno="37" tvg-id="Warner Tv.it" tvg-name="Warner Tv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/260px-Warner_TV_Italy.svg.png" group-title="ITALIA",Warner TV\
+https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="38" tvg-id="Giallo.it" tvg-name="Giallo.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/330px-Giallo_-_Logo_2014.svg.png" group-title="ITALIA",Giallo\
+https://amg16146-wbdi-amg16146c5-samsung-it-1838.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="39" tvg-id="Topcrime.it" tvg-name="Topcrime.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Top_Crime_-_Logo_2013.svg/250px-Top_Crime_-_Logo_2013.svg.png" group-title="ITALIA",Top Crime\
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="40" tvg-id="Boing.it" tvg-name="Boing.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/Logo_Boing.png" group-title="ITALIA",Boing\
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="41" tvg-id="K2.it" tvg-name="K2.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/7/70/K2_logo_%282013%29.svg/330px-K2_logo_%282013%29.svg.png" group-title="ITALIA",K2\
+https://amg16146-wbdi-amg16146c6-samsung-it-1839.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="42" tvg-id="Rai Gulp.it" tvg-name="Rai Gulp.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/330px-Rai_Gulp_-_Logo_2017.svg.png" group-title="ITALIA",Rai Gulp\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="43" tvg-id="Rai Yoyo.it" tvg-name="Rai Yoyo.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rai_Yoyo_-_Logo_2017.svg/330px-Rai_Yoyo_-_Logo_2017.svg.png" group-title="ITALIA",Rai Yoyo\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="44" tvg-id="Frisbee.it" tvg-name="Frisbee.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/FRISBEE_LOGO_2015.png/250px-FRISBEE_LOGO_2015.png" group-title="ITALIA",Frisbee\
+https://amg16146-wbdi-amg16146c7-samsung-it-1840.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="46" tvg-id="Cartoonito.it" tvg-name="Cartoonito.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/250px-Cartoonito_-_Logo_2021.svg.png" group-title="ITALIA",Cartoonito\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="48" tvg-id="Rai News.it" tvg-name="Rai News.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/250px-Rai_News_24_logo_%282022%29.svg.png" group-title="ITALIA",Rai News 24\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="49" tvg-id="Italia2.it" tvg-name="Italia2.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/250px-Logo_Italia2.svg.png" group-title="ITALIA",Italia 2\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="50" tvg-id="Sky TG24.it" tvg-name="Sky TG24.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sky_TG24_-_Logo_2021.svg/250px-Sky_TG24_-_Logo_2021.svg.png" group-title="ITALIA",Sky TG24\
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d\
+\
+#EXTINF:-1 tvg-chno="51" tvg-id="Mediaset Tgcom24.it" tvg-name="Mediaset Tgcom24.it" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bf/Mediaset_TGCOM_24_logo.png" group-title="ITALIA",TGCOM 24\
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="52" tvg-id="Dmax.it" tvg-name="Dmax.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/250px-DMAX_BLACK.svg.png" group-title="ITALIA",DMAX\
+https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="54" tvg-id="Rai Storia.it" tvg-name="Rai Storia.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/250px-Rai_Storia_-_Logo_2017.svg.png" group-title="ITALIA",Rai Storia\
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="55" tvg-id="Mediaset Extra.it" tvg-name="Mediaset Extra.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mediaset_Extra_logo.svg/330px-Mediaset_Extra_logo.svg.png" group-title="ITALIA",Mediaset Extra\
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1\
+https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="56" tvg-id="Hgtv.it" tvg-name="Hgtv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/HGTV_logo.png/330px-HGTV_logo.png" group-title="ITALIA",HGTV - Home&Garden\
+https://amg16146-wbdi-amg16146c9-samsung-it-1842.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="57" tvg-id="Rai Scuola.it" tvg-name="Rai Scuola.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/330px-Rai_Scuola_-_Logo_2017.svg.png" group-title="ITALIA",Rai Scuola\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="58" tvg-id="Rai Sport1.it" tvg-name="Rai Sport1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rai_Sport_-_Logo_2022.svg/330px-Rai_Sport_-_Logo_2022.svg.png" group-title="ITALIA",Rai Sport\
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv\
+\
+#EXTINF:-1 tvg-chno="59" tvg-id="Motor Trend.it" tvg-name="Motor Trend.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/330px-Motor_Trend_logo.svg.png" group-title="ITALIA",Motor Trend\
+https://amg16146-wbdi-amg16146c10-samsung-it-1843.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="67" tvg-id="R101.it" tvg-name="R101.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/R101_-_Logo_2015.svg/330px-R101_-_Logo_2015.svg.png" group-title="ITALIA",R101 TV\
+https://live03-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/manifest.mpd\
+\
+#EXTINF:-1 tvg-chno="69" tvg-id="Deejay TV.it" tvg-name="Deejay TV.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Logo_Deejay.svg/330px-Logo_Deejay.svg.png" group-title="ITALIA",Deejay TV\
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="70" tvg-id="Radioitaliatv.it" tvg-name="Radioitaliatv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radio_Italia_logo_%282020%29.svg/330px-Radio_Italia_logo_%282020%29.svg.png" group-title="ITALIA",RadioItaliaTV\
+https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="71" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Logo_Radio_Kiss_Kiss.png/330px-Logo_Radio_Kiss_Kiss.png" group-title="ITALIA",RADIO KISS KISS TV\
+https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="72" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/250px-RTL_102.5_logo.svg.png" group-title="ITALIA",RTL 102.5 News\
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8\
+\
+#EXTINF:-1 tvg-chno="73" tvg-id="" tvg-name="" tvg-logo="https://cloud.radiofreccia.it/assets/www.radiofreccia.it/1.0.43/img/layout/logo-freccia-no-claim.png" group-title="ITALIA",Radio Freccia\
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8\
+\
+#EXTINF:-1 tvg-chno="74" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/250px-RDS-Logo.png" group-title="ITALIA",RDS Social TV\
+https://stream.rdstv.radio/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="75" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Radio_Zeta_-_Logo_2020.svg/330px-Radio_Zeta_-_Logo_2020.svg.png" group-title="ITALIA",RADIO ZETA\
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8\
+\
+#EXTINF:-1 tvg-chno="76" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/38/Radio_Capital_logo_%282020%29.svg/330px-Radio_Capital_logo_%282020%29.svg.png" group-title="ITALIA",Radio Capital TV\
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="77" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Radio_m2o_-_Logo_2019.svg/330px-Radio_m2o_-_Logo_2019.svg.png" group-title="ITALIA",M2O TV\
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="78" tvg-id="San Marino RTV.it" tvg-name="San Marino RTV.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/60/San_Marino_RTV_logo_2021.svg/250px-San_Marino_RTV_logo_2021.svg.png" group-title="ITALIA",RTV San Marino\
+https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/chunklist_b1192000_slita.m3u8\
+\
+#EXTINF:-1 tvg-chno="79" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/250px-RDS-Logo.png" group-title="ITALIA",Radio TV Serie A con RDS\
+https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="80" tvg-id="Fashion TV.fr" tvg-name="Fashion TV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/250px-Fashion_TV_logo.svg.png" group-title="ITALIA",Fashion TV L'Original\
+https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8\
+\
+#EXTINF:-1 tvg-chno="81" tvg-id="Fashion TV.fr" tvg-name="Fashion TV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/250px-Fashion_TV_logo.svg.png" group-title="ITALIA",FTV NewYork\
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_new_york_9dd_43432_default_1596_hls.smil/chunklist_b4628000_t64MTA4MHA=.m3u8\
+\
+#EXTINF:-1 tvg-chno="99" tvg-id="Rai 4K.it" tvg-name="Rai 4K.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rai_4K_-_Logo_2017.svg/330px-Rai_4K_-_Logo_2017.svg.png" group-title="ITALIA",Rai 4K\
+https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8\
+\
+\
+#EXTINF:-1 tvg-chno="100" tvg-id="Franceinfo.fr" tvg-name="Franceinfo.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/franceinfoblack100x100.png?h=100" tvg-country="FR" group-title="FRANCE",France Info\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8\
+\
+#EXTINF:-1 tvg-chno="101" tvg-id="TF1.fr" tvg-name="TF1.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="FRANCE",TF1\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rkpTaECavU/HDHX1TuwtMZmWWT.m3u8\
+\
+#EXTINF:-1 tvg-chno="102" tvg-id="France 2.fr" tvg-name="France 2.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 2\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8\
+\
+#EXTINF:-1 tvg-chno="103" tvg-id="France 3.fr" tvg-name="France 3.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_3_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 3\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv//backup/france3.m3u8\
+\
+#EXTINF:-1 tvg-chno="104" tvg-id="France 4.fr" tvg-name="France 4.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_4_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 4\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france4.m3u8\
+\
+#EXTINF:-1 tvg-chno="105" tvg-id="France 5.fr" tvg-name="France 5.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_5_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 5\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france5.m3u8\
+\
+#EXTINF:-1 tvg-chno="106"  tvg-id="M6.fr" tvg-name="M6.fr" tvg-logo="https://i.ibb.co/wgJTdGY/m6.png" group-title="FRANCE",M6\
+https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="107" tvg-id="Arte.fr" tvg-name="Arte.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Arte_color.png?h=100" tvg-country="FR" group-title="FRANCE",Arte\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rkpTaECavU/XXvlqKIlXnKhCV5.m3u8\
+\
+#EXTINF:-1 tvg-chno="108" tvg-id="LCP 100%.fr" "tvg-name="LCP 100%.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/langfr-250px-Logo_LCP-AN_%282019%29.svg.png" tvg-country="FR" group-title="FRANCE",LCP \
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lcp/lcp-dm.m3u8\
+\
+#EXTINF:-1 tvg-chno="109" tvg-id="W9.fr" tvg-name="W9.fr" tvg-logo="https://i.ibb.co/LNRd253/w9.png" group-title="FRANCE",W9\
+https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8\
+\
+#EXTINF:-1 tvg-chno="110" tvg-id="TMC.fr "tvg-name="TMC.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TMC_color.png?h=100" tvg-country="FR" group-title="FRANCE",TMC\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rkpTaECavU/KRg9DzqVamasN6S.m3u8\
+\
+#EXTINF:-1 tvg-chno="111" tvg-id="TFX.fr" "tvg-name="TFX.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TFX_color.png?h=100" tvg-country="FR" group-title="FRANCE",TFX\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rkpTaECavU/w4Vs3ynLsG9LUaW.m3u8\
+\
+#EXTINF:-1 tvg-chno="112" tvg-id="Gulli.fr" "tvg-name="Gulli.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/Gulli100x100Couleur.png?h=100" tvg-country="FR" group-title="FRANCE",Gulli\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m6plus/gulli.m3u8\
+\
+#EXTINF:-1 tvg-chno="113" tvg-id="BFMTV.fr" "tvg-name="BFMTV.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/BFM_TV_color.png?h=100" tvg-country="FR" group-title="FRANCE",BFM TV\
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END\
+\
+#EXTINF:-1 tvg-chno="114" tvg-id="CNEWS.fr" "tvg-name="CNEWS.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CNews_color.png?h=100" tvg-country="FR" group-title="FRANCE",C NEWS\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8\
+\
+#EXTINF:-1 tvg-chno="115" tvg-id="lci.fr" "tvg-name="lci.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="FRANCE",LCI\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/lci.m3u8\
+\
+#EXTINF:-1 tvg-chno="117" tvg-id="CSTAR.fr" "tvg-name="CSTAR.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CStar_color.png?h=100" tvg-country="FR" group-title="FRANCE",CStar\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cstar-dm.m3u8\
+\
+#EXTINF:-1 tvg-chno="118" tvg-id="T18.fr" "tvg-name="T18.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/T18100x100.png?h=100" tvg-country="FR" group-title="FRANCE",T18\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8\
+\
+#EXTINF:-1 tvg-chno="120" tvg-id="TF1 Series Films.fr" "tvg-name="TF1 Series Films.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_Series_Films_color.png?h=100" tvg-country="FR" group-title="FRANCE",TF1 S\'e9ries Films\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1-series-films.m3u8\
+\
+#EXTINF:-1 tvg-chno="121" tvg-id="LEquipe21.fr" "tvg-name="LEquipe21.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="FRANCE",LA CHA\'ceNE L'\'c9QUIPE\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/2ufa58JAan8S/TUe9SoX8hhJMJJY.m3u8\
+\
+#EXTINF:-1 tvg-chno="122" tvg-id="6ter.fr" "tvg-name="6ter.fr" tvg-logo="https://picserve.netplus.ch/channels/6ter.png" group-title="FRANCE",6TER\
+https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8\
+\
+#EXTINF:-1 tvg-chno="123" tvg-id="RMC Story.fr" "tvg-name="RMC Story.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_STORY_color.png?h=100" tvg-country="FR" group-title="FRANCE",RMC STORY\
+https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="124" tvg-id="RMC Decouverte.fr" "tvg-name="RMC Decouverte.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_Decouverte_color.png?h=100" tvg-country="FR" group-title="FRANCE",RMC Decouverte\
+https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="125" tvg-id="Cherie 25.fr" "tvg-name="Cherie 25.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Cherie_25_color.png?h=100" tvg-country="FR" group-title="FRANCE",Ch\'e9rie 25\
+https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="140" tvg-id="Canal+.fr" "tvg-name="Canal+.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b7/Canal%2B2025.png/250px-Canal%2B2025.png" tvg-country="FR" group-title="FRANCE",CANAL+\
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/canalplusclair-hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="200" tvg-id="NDR Hamburg.de" "tvg-name="NDR Hamburg.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/NDR_Logo_mit_neuer_ARD-Dachmarke.svg/250px-NDR_Logo_mit_neuer_ARD-Dachmarke.svg.png" group-title="DEUTSCHLAND",NDR\
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="201" tvg-id="Das Erste.de" "tvg-name="Das Erste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/250px-Das_Erste_2014.svg.png" group-title="DEUTSCHLAND",Das Erste\
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="202" tvg-id="ZDF.de" "tvg-name="ZDF.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/250px-ZDF_logo.svg.png" group-title="DEUTSCHLAND",ZDF\
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8\
+3sat\
+https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="203" tvg-id="ONE.de" "tvg-name="ONE.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/250px-One_2022.svg.png" group-title="DEUTSCHLAND",Ard ONE\
+https://mcdn-one.ard.de/ardone/hls/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="204" tvg-id="ZDFneo.de" "tvg-name="ZDFneo.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ZDFneo_2017.svg/250px-ZDFneo_2017.svg.png" group-title="DEUTSCHLAND",ZDF Neo\
+https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8\
+\
+#EXTINF:-1 tvg-chno="301" tvg-id="LA 1.es" "tvg-name="LA 1.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_La_1.svg/250px-Logo_La_1.svg.png" group-title="ESPA\'d1A",tvE La 1\
+https://ztnr.rtve.es/ztnr/1688877.m3u8\
+\
+#EXTINF:-1 tvg-chno="302" tvg-id="LA 2.es" "tvg-name="LA 2.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Logo_La_2.svg/250px-Logo_La_2.svg.png" group-title="ESPA\'d1A",tvE La 2\
+https://ztnr.rtve.es/ztnr/1688885.m3u8\
+\
+#EXTINF:-1 tvg-chno="401" tvg-id="KABCDT2.us" "tvg-name="KABCDT2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/250px-ABC-2021-LOGO.svg.png" group-title="US",ABC\
+https://tvpass.org/live/abc-kabc-los-angeles-ca/sd\
+\
+#EXTINF:-1 tvg-chno="402" tvg-id="KABCDT2.us" "tvg-name="KABCDT2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/250px-ABC-2021-LOGO.svg.png" group-title="US",ABC HD\
+https://tvpass.org/live/abc-kabc-los-angeles-ca/hd\
+\
+#EXTINF:-1 tvg-chno="403" tvg-id="KCBSDT3.us" "tvg-name="KCBSDT3.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/250px-CBS_logo_%282020%29.svg.png" group-title="US",CBS\
+https://tvpass.org/live/cbs-kcbs-los-angeles-ca/sd\
+\
+#EXTINF:-1 tvg-chno="404" tvg-id="KCBSDT3.us" "tvg-name="KCBSDT3.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/250px-CBS_logo_%282020%29.svg.png" group-title="US",CBS HD\
+https://tvpass.org/live/cbs-kcbs-los-angeles-ca/hd\
+\
+#EXTINF:-1 tvg-chno="405" tvg-id="WNBC.us." "tvg-name="WNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/250px-NBC_logo_2022_%28vertical%29.svg.png" group-title="US",NBC\
+https://tvpass.org/live/WNBCDT1/sd\
+\
+#EXTINF:-1 tvg-chno="406" tvg-id="WNBC.us" "tvg-name="WNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/250px-NBC_logo_2022_%28vertical%29.svg.png" group-title="US",NBC HD\
+https://tvpass.org/live/WNBCDT1/hd\
+\
+#EXTINF:-1 tvg-chno="407" tvg-id="Bravo.us" "tvg-name="Bravo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/250px-Bravo_2024.svg.png" group-title="US",Bravo\
+https://tvpass.org/live/BravoEast/sd\
+\
+#EXTINF:-1 tvg-chno="408" tvg-id="Bravo.us" "tvg-name="Bravo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/250px-Bravo_2024.svg.png" group-title="US",Bravo HD\
+https://tvpass.org/live/BravoEast/hd\
+\
+#EXTINF:-1 tvg-chno="409" tvg-id="e.us" "tvg-name="e.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/E%21_Logo_Flat_2012.svg/60px-E%21_Logo_Flat_2012.svg.png" group-title="US",E!\
+https://tvpass.org/live/EEast/sd\
+\
+#EXTINF:-1 tvg-chno="410" tvg-id="e.us" "tvg-name="e.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/E%21_Logo_Flat_2012.svg/60px-E%21_Logo_Flat_2012.svg.png" group-title="US",E! HD\
+https://tvpass.org/live/EEast/hd\
+\
+#EXTINF:-1 tvg-chno="411" tvg-id="hbo.us" "tvg-name="hbo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/250px-HBO_logo.svg.png" group-title="US",HBO\
+https://tvpass.org/live/HBOEast/sd\
+\
+#EXTINF:-1 tvg-chno="412" tvg-id="hbo.us" "tvg-name="hbo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/250px-HBO_logo.svg.png" group-title="US",HBO HD\
+https://tvpass.org/live/HBOEast/hd\
+\
+#EXTINF:-1 tvg-chno="413" tvg-id="mtv.us" "tvg-name="mtv.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/250px-MTV_2021_%28brand_version%29.svg.png" group-title="US",MTV\
+https://tvpass.org/live/MTVEast/sd\
+\
+#EXTINF:-1 tvg-chno="414" tvg-id="mtv.us" "tvg-name="mtv.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/250px-MTV_2021_%28brand_version%29.svg.png" group-title="US",MTV HD \
+https://tvpass.org/live/MTVEast/hd\
+\
+#EXTINF:-1 tvg-chno="501" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/250px-Bravo_2024.svg.png" group-title="US-Free",Bravo Vault\
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951242/hls/master.m3u8?ads.xumo_channelId=99951242&ads.asnw=169843&ads.afid=380682251&ads.sfid=19194677&ads.csid=xumo_desktopweb_NBCUBravoVault_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads._fw_did=77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_vcid2=512116:77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_content_category=IAB1-7&ads._fw_content_genre=Reality%20TV&ads._fw_content_language=en&ads._fw_content_rating=TV-PG&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=2-Personal_Computer&ads.appVersion=2.18.2&ads.appName=XumoPlay&ads.xumo_contentId=3934&ads.xumo_contentName=NBCUBravoVault&ads.xumo_providerId=3934&ads.xumo_providerName=NBCUBravoVault&ads.channelId=99951242&ads._fw_ifa_type=dpid&ads.site_name=XumoPlay&ads.site_page=https%253A%252F%252Fplay.xumo.com\
+\
+#EXTINF:-1 tvg-chno="502" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/250px-Bravo_2024.svg.png" group-title="US-Free",Bravo The Real Housewives\
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951243/hls/master.m3u8?ads.xumo_channelId=99951243&ads.asnw=169843&ads.afid=380684197&ads.sfid=19208056&ads.csid=xumo_desktopweb_NBCURealHousewivesVault_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads._fw_did=77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_vcid2=512116:77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_content_category=IAB1-7&ads._fw_content_genre=Reality%20TV&ads._fw_content_language=en&ads._fw_content_rating=TV-PG&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=2-Personal_Computer&ads.appVersion=2.18.2&ads.appName=XumoPlay&ads.xumo_contentId=3936&ads.xumo_contentName=NBCURealHousewivesVault&ads.xumo_providerId=3936&ads.xumo_providerName=NBCURealHousewivesVault&ads.channelId=99951243&ads._fw_ifa_type=dpid&ads.site_name=XumoPlay&ads.site_page=https%253A%252F%252Fplay.xumo.com\
+\
+#EXTINF:-1 tvg-chno="503"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/250px-Bravo_2024.svg.png" group-title="US-Free",Bravo Million Dollars Listing\
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951237/hls/master.m3u8?ads.xumo_channelId=99951237&ads.asnw=169843&ads.afid=347195519&ads.sfid=16772620&ads.csid=xumo_desktopweb_NBCUMillionDollarListing_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads._fw_did=77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_vcid2=512116:77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_content_category=IAB10&ads._fw_content_genre=Home%20%26%20Design&ads._fw_content_language=undefined&ads._fw_content_rating=TV-PG&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=2-Personal_Computer&ads.appVersion=2.18.2&ads.appName=XumoPlay&ads.xumo_contentId=2780&ads.xumo_contentName=NBCUMillionDollarListing&ads.xumo_providerId=2780&ads.xumo_providerName=NBCUMillionDollarListing&ads.channelId=99951237&ads._fw_ifa_type=dpid&ads.site_name=XumoPlay&ads.site_page=https%253A%252F%252Fplay.xumo.com\
+\
+\
+\
+#EXTINF:-1 tvg-chno="504" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/E%21_Logo_Flat_2012.svg/60px-E%21_Logo_Flat_2012.svg.png" group-title="US-Free",E! Keeping Up\
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951235/hls/master.m3u8?ads.xumo_channelId=99951235&ads.asnw=169843&ads.afid=380683392&ads.sfid=19194654&ads.csid=xumo_desktopweb_NBCUEKeepingUp_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads._fw_did=f99606a8-62ab-aef5-a344-39cb27556cda&ads._fw_vcid2=512116:f99606a8-62ab-aef5-a344-39cb27556cda&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_content_category=IAB1-7&ads._fw_content_genre=Reality%20TV&ads._fw_content_language=en&ads._fw_content_rating=TV-PG&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=2-Personal_Computer&ads.appVersion=2.18.2&ads.appName=XumoPlay&ads.xumo_contentId=3933&ads.xumo_contentName=NBCUEKeepingUp&ads.xumo_providerId=3933&ads.xumo_providerName=NBCUEKeepingUp&ads.channelId=99951235&ads._fw_ifa_type=dpid&ads.site_name=XumoPlay&ads.site_page=https%253A%252F%252Fplay.xumo.com\
+\
+\
+\
+#EXTINF:-1 tvg-chno="505" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Wendy_Williams_Show_logo.svg/250px-Wendy_Williams_Show_logo.svg.png" group-title="US-Free",The Wendy Williams Show\
+https://dbrb49pjoymg4.cloudfront.net/10001/99951433/hls/playlist.m3u8?ads.xumo_channelId=99951433&ads._fw_ifa_type=dpid&ads._fw_did=af21da70-f72e-1e17-68bb-613784ef900a&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=LionsgateWendyWilliams&ads.csid=xumo_desktopweb_LionsgateWendyWilliams_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads.genre=&ads._fw_content_category=&ads._fw_content_language=undefined&ads._fw_content_genre=Daytime%20TV&ads._fw_content_rating=TV-PG&ads.xumo_contentId=4233&ads.xumo_contentName=LionsgateWendyWilliams&ads.xumo_providerId=4233&ads.xumo_providerName=LionsgateWendyWilliams&ads._fw_deviceMake=&ads._fw_device_model=&ads.channelId=99951433&ads.xumo_platform=desktopweb&ads.site_id=26840&ads.appName=xumo&ads.appVersion=2.18.3&ads._fw_app_bundle=&ads._fw_app_store_url=&ads.site_name=XumoPlay&ads.site_page=https%253A%252F%252Fplay.xumo.com\
+\
+#EXTINF:-1 tvg-chno="506" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ellen.svg/330px-Ellen.svg.png" group-title="US-Free",The Ellen Channel\
+https://dbrb49pjoymg4.cloudfront.net/10001/99951400/hls/playlist.m3u8?ads.xumo_channelId=99951400&ads._fw_ifa_type=dpid&ads._fw_did=77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=WBDTheEllenChannel&ads.csid=xumo_desktopweb_WBDTheEllenChannel_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads.genre=&ads._fw_content_category=IAB1-7&ads._fw_content_language=undefined&ads._fw_content_genre=Reality%20TV&ads._fw_content_rating=TV-PG&ads.xumo_contentId=4208&ads.xumo_contentName=WBDTheEllenChannel&ads.xumo_providerId=4208&ads.xumo_providerName=WBDTheEllenChannel&ads._fw_deviceMake=&ads._fw_device_model=&ads.channelId=99951400&ads.xumo_platform=desktopweb&ads.site_id=26840&ads.appName=xumo&ads.appVersion=2.18.2&ads._fw_app_bundle=&ads._fw_app_store_url=&ads.site_name=XumoPlay&ads.site_page=https%253A%252F%252Fplay.xumo.com\
+\
+#EXTINF:-1 tvg-chno="507" tvg-logo="https://image.xumo.com/v1/channels/channel/99951236/80x80.webp?type=color_onWhite" group-title="US-Free",NBC SNL\
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951236/hls/master.m3u8?ads.xumo_channelId=99951236&ads.asnw=169843&ads.afid=380737434&ads.sfid=19208104&ads.csid=xumo_desktopweb_NBCUSNLVault_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads._fw_did=77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_vcid2=512116:77abea2a-eb0e-596f-76b4-7c1cb57fcb94&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_content_category=IAB1-7&ads._fw_content_genre=Comedy&ads._fw_content_language=en&ads._fw_content_rating=TV-PG&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=2-Personal_Computer&ads.appVersion=2.18.2&ads.appName=XumoPlay&ads.xumo_contentId=3931&ads.xumo_contentName=NBCUSNLVault&ads.xumo_providerId=3931&ads.xumo_providerName=NBCUSNLVault&ads.channelId=99951236&ads._fw_ifa_type=dpid&ads.site_name=XumoPlay&ads.site_page=https%253A%252F%252Fplay.xumo.com\
+\
+\
+#EXTINF:-1 tvg-chno="601" tvg-id="BBC One London.uk" "tvg-name="BBC One London.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/1230px-BBC_One_logo_2021.svg.png" group-title="UK",BBC One \
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/pc_hd_abr_v2.mpd\
+\
+#EXTINF:-1 tvg-chno="602" tvg-id="BBC Two.uk" "tvg-name="BBC Two.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/250px-BBC_Two_logo_2021.svg.png" group-title="UK",BBC Two\
+https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/t=3840/v=pv14/b=5070016/main.m3u8\
+\
+#EXTINF:-1 tvg-chno="603" tvg-logo="https://picserve.netplus.ch/channels/itv.png" group-title="UK",ITV1\
+https://viamotionhsi.netplus.ch/live/eds/itv/browser-HLS8/itv.m3u8\
+\
+#EXTINF:-1 tvg-chno="604" tvg-id="Channel 4 HD.uk" "tvg-name="Channel 4 HD.uk" tvg-logo="https://picserve.netplus.ch/channels/channel4.png" group-title="UK", Channel 4\
+https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8\
+\
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\
+#EXTINF:-1 tvg-chno="605" tvg-id="Channel 5 HD.uk" "tvg-name="Channel 5 HD.uk" tvg-logo="https://picserve.netplus.ch/channels/channel5.png" group-title="UK",Channel 5\
+https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8\
+\
+#EXTINF:-1 tvg-chno="606" tvg-id="ITV2.uk" "tvg-name="ITV2.uk" tvg-logo="https://picserve.netplus.ch/channels/itv2.png" group-title="UK",ITV 2\
+https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8\
+\
+#EXTINF:-1 tvg-chno="609" tvg-id="BBC Four HD.uk" "tvg-name="BBC Four HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/250px-BBC_Four_logo_2021.svg.png" group-title="UK",BBC Four\
+https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8\
+\
+#EXTINF:-1 tvg-chno="610" tvg-id="ITV3.uk" "tvg-name="ITV3.uk" tvg-logo="https://picserve.netplus.ch/channels/itv3.png" group-title="UK",ITV 3\
+https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8\
+\
+#EXTINF:-1 tvg-chno="607" tvg-id="BBC Red Button 1.uk" "tvg-name="BBC Red Button 1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/250px-BBC_Red_Button_2021.svg.png" group-title="UK",BBC Red Button\
+https://vs-hls-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:red_button_one/t=3840/v=pv14/b=5070016/main.m3u8\
+\
+#EXTINF:-1 tvg-chno="614" tvg-id="FILM4 HD.uk" "tvg-name="FILM4 HD.uk" tvg-logo="https://picserve.netplus.ch/channels/film4.png" group-title="UK",FILM 4\
+https://viamotionhsi.netplus.ch/live/eds/film4/browser-HLS8/film4.m3u8\
+\
+#EXTINF:-1 tvg-chno="623" tvg-id="BBC Three HD.uk" "tvg-name="BBC Three HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/250px-BBC_Three_2022.svg.png" group-title="UK",BBC Three\
+https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/t=3840/v=pv14/b=5070016/main.m3u8\
+\
+#EXTINF:-1 tvg-chno="624" tvg-id="BBC Three HD.uk" "tvg-name="BBC Three HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/250px-BBC_Three_2022.svg.png" group-title="UK",BBC Three CH\
+https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8\
+\
+#EXTINF:-1 tvg-chno="626" tvg-id="ITV4.uk" "tvg-name="ITV4.uk" tvg-logo="https://picserve.netplus.ch/channels/itv4.png" group-title="UK",ITV 4\
+https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8\
+\
+#EXTINF:-1 tvg-chno="701" tvg-id="RSILA1.ch" "tvg-name="RSILA1.ch" tvg-logo="https://picserve.netplus.ch/channels/rsila1hd.png"  group-title="SWITZERLAND",RSI La 1\
+https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="702" tvg-id="RSILA2.ch" "tvg-name="RSILA2.ch" tvg-logo="https://picserve.netplus.ch/channels/rsila2hd.png" group-title="SWITZERLAND",RSI La 2\
+https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="703" tvg-id="SRF1.ch" "tvg-name="SRF1.ch" tvg-logo="https://picserve.netplus.ch/channels/srf1hd.png" tvg-country="DE" group-title="SWITZERLAND",SRF 1\
+https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="704" tvg-id="SRF2.ch" "tvg-name="SRF2.ch" tvg-logo="https://picserve.netplus.ch/channels/srf2hd.png" tvg-country="DE" group-title="SWITZERLAND",SRF Zwei\
+https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="705" tvg-id="SRF Info.de" "tvg-name="SRF Info.de" tvg-logo="https://picserve.netplus.ch/channels/srfinfo.png" tvg-country="DE" group-title="SWITZERLAND",SRF Info\
+https://viamotionhsi.netplus.ch/live/eds/srfinfo/browser-HLS8/srfinfo.m3u8\
+\
+#EXTINF:-1 tvg-chno="706" tvg-id="RTS1.ch" "tvg-name="RTS1.ch" tvg-logo="https://picserve.netplus.ch/channels/rts1hd.png" tvg-country="FR" group-title="SWITZERLAND",RTS 1\
+https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="707" tvg-id="RTS2.ch" "tvg-name="RTS2.ch" tvg-logo="https://picserve.netplus.ch/channels/rts2hd.png" tvg-country="FR" group-title="SWITZERLAND",RTS 2\
+https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8\
+\
+#EXTINF:-1 tvg-chno="708" tvg-id="ORF1.ch" "tvg-name="ORF1.ch" tvg-logo="https://picserve.netplus.ch/channels/orf1.png" tvg-country="DE" group-title="SWITZERLAND",ORF 1\
+https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8\
+\
+#EXTINF:-1 tvg-chno="709" tvg-id="ORF2.ch" "tvg-name="ORF2.ch" tvg-logo="https://picserve.netplus.ch/channels/orf2.png" tvg-country="DE" group-title="SWITZERLAND",ORF 2\
+https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8\
+\
+\
+\
+#EXTINF:-1 tvg-chno="801" tvg-logo="https://github.com/vroomvroomO/vroomvroomO.github.io/blob/main/tvm%20logo.png?raw=true" group-title="LAN",tvM\
+http://192.168.1.4:8888/live/stream/index.m3u8\
+\
+#EXTINF:-1 tvg-chno="802" tvg-logo="https://raw.githubusercontent.com/vroomvroomO/vroomvroomO.github.io/refs/heads/main/tvm%20pink.png" group-title="LAN", tvM \
+http://192.168.1.9:8888/live/stream2/index.m3u8\
 }
