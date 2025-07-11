@@ -4,7 +4,6 @@ URL_FONTE = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/mai
 FILE_LOCALE = "playlist.m3u"
 FILE_AGGIORNATA = "playlist_aggiornata.m3u"
 
-# Dizionario con nome canale locale : keyword da cercare nel nome canale della fonte (case-insensitive)
 KEYWORDS_CANALI = {
     "TF1": "tf1.fr",
     "Arte": "tf1.fr",
@@ -12,7 +11,6 @@ KEYWORDS_CANALI = {
     "LCI": "tf1.fr",
     "La Chaîne L'Équipe": "tf1.fr",
     "TF1 Series Films": "tf1.fr"
-    # Aggiungi altre se vuoi, es: "CanaleX": "qualcosa"
 }
 
 def scarica_playlist_fonte(url):
@@ -25,11 +23,16 @@ def estrai_canali_fonte(righe_fonte):
     i = 0
     while i < len(righe_fonte):
         if righe_fonte[i].startswith("#EXTINF"):
-            nome = righe_fonte[i].split(",",1)[1].strip()
+            nome = righe_fonte[i].split(",", 1)[1].strip()
             url = righe_fonte[i+1].strip()
-            # Prendo solo la parte dell'url dopo "/main/"
-            parte_url = url.split("/main/")[-1]
-            url_pulito = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/" + parte_url
+
+            idx = url.find("/refs/")
+            if idx != -1:
+                parte_url = url[idx:]  # includo "/refs/..."
+                url_pulito = "https://raw.githubusercontent.com/Paradise-91/ParaTV" + parte_url
+            else:
+                url_pulito = url  # fallback se non trova /refs/
+
             canali[nome] = url_pulito
             i += 2
         else:
@@ -46,12 +49,11 @@ def aggiorna_playlist_locale(input_file, output_file, canali_fonte):
         riga = righe_locale[i]
 
         if riga.startswith("#EXTINF"):
-            nome_locale = riga.split(",",1)[1].strip()
+            nome_locale = riga.split(",", 1)[1].strip()
             righe_aggiornate.append(riga)
 
             url_locale = righe_locale[i+1].strip()
 
-            # Cerco keyword associata al nome_locale
             keyword = None
             for k in KEYWORDS_CANALI.keys():
                 if nome_locale.lower() == k.lower():
@@ -60,13 +62,11 @@ def aggiorna_playlist_locale(input_file, output_file, canali_fonte):
 
             url_nuovo = None
             if keyword:
-                # Cerco nel dizionario canali_fonte il canale che contiene nome_locale e keyword (case insensitive)
                 for nome_fonte, url in canali_fonte.items():
                     if nome_locale.lower() in nome_fonte.lower() and keyword in nome_fonte.lower():
                         url_nuovo = url
                         break
             else:
-                # Se non c'è keyword per questo canale, cerco solo per nome_locale
                 for nome_fonte, url in canali_fonte.items():
                     if nome_locale.lower() in nome_fonte.lower():
                         url_nuovo = url
