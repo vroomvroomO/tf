@@ -4,6 +4,17 @@ URL_FONTE = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/mai
 FILE_LOCALE = "playlist.m3u"
 FILE_AGGIORNATA = "playlist_aggiornata.m3u"
 
+# Dizionario con nome canale locale : keyword da cercare nel nome canale della fonte (case-insensitive)
+KEYWORDS_CANALI = {
+    "TF1": "tf1.fr",
+    "Arte": "tf1.fr",
+    "TMC": "tf1.fr",
+    "LCI": "tf1.fr",
+    "La Chaîne L'Équipe": "tf1.fr",
+    "TF1 Series Films": "tf1.fr"
+    # Aggiungi altre se vuoi, es: "CanaleX": "qualcosa"
+}
+
 def scarica_playlist_fonte(url):
     response = requests.get(url)
     response.raise_for_status()
@@ -40,26 +51,26 @@ def aggiorna_playlist_locale(input_file, output_file, canali_fonte):
 
             url_locale = righe_locale[i+1].strip()
 
-            # Cerco nella fonte un canale che contiene nome_locale e la stringa chiave (es: 'tf1.fr', 'arte', ecc.)
+            # Cerco keyword associata al nome_locale
+            keyword = None
+            for k in KEYWORDS_CANALI.keys():
+                if nome_locale.lower() == k.lower():
+                    keyword = KEYWORDS_CANALI[k].lower()
+                    break
+
             url_nuovo = None
-            for nome_fonte, url in canali_fonte.items():
-                # Prendo la parte in parentesi quadre nel nome_fonte per sapere qual è la stringa chiave
-                # esempio: "TF1 [720p-tf1.fr]" -> cerca se nome_locale in nome_fonte e 'tf1.fr' in nome_fonte
-                if nome_locale in nome_fonte:
-                    # Estraggo la parte tra parentesi quadre, se presente
-                    start = nome_fonte.find('[')
-                    end = nome_fonte.find(']')
-                    if start != -1 and end != -1:
-                        tag = nome_fonte[start+1:end].lower()
-                        # Ad esempio se nome_locale è TF1 cerco "tf1.fr" nel tag
-                        if nome_locale.lower() in nome_fonte.lower() and nome_locale.lower() in tag:
-                            url_nuovo = url
-                            break
-                    else:
-                        # Se non ci sono parentesi, accetto se il nome_locale è contenuto
-                        if nome_locale.lower() in nome_fonte.lower():
-                            url_nuovo = url
-                            break
+            if keyword:
+                # Cerco nel dizionario canali_fonte il canale che contiene nome_locale e keyword (case insensitive)
+                for nome_fonte, url in canali_fonte.items():
+                    if nome_locale.lower() in nome_fonte.lower() and keyword in nome_fonte.lower():
+                        url_nuovo = url
+                        break
+            else:
+                # Se non c'è keyword per questo canale, cerco solo per nome_locale
+                for nome_fonte, url in canali_fonte.items():
+                    if nome_locale.lower() in nome_fonte.lower():
+                        url_nuovo = url
+                        break
 
             if url_nuovo:
                 righe_aggiornate.append(url_nuovo + "\n")
