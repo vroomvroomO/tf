@@ -1,89 +1,107 @@
 import requests
 import re
 
-# Fonte principale
 URL_FONTE = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/paratv.m3u"
 
-# Lista canali da aggiornare e filtro su 'tf1.fr'
+# Canali esatti da aggiornare: la chiave è il nome esatto che compare in #EXTINF, valore è un tag per sicurezza
 CANALI = {
-    "TF1": "TF1",
-    "TF1 Séries Films": "TF1 Séries Films",
-    "TMC": "TMC",
-    "Arte": "Arte",
-    "LCI": "LCI",
-    "L'Équipe": "L'Équipe",
+    "TF1": "tf1.fr",
+    "TF1 Séries Films": "tf1.fr",
+    "TMC": "tf1.fr",
+    "Arte": "arte.tv",
+    "LCI": "tf1.fr",
+    "La Chaîne L'Équipe": "lequipe.fr",
 }
 
-# Prefisso fisso nella tua lista
-PREFIX = "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/"
+# Percorso della playlist da aggiornare
+PATH_PLAYLIST = "playlist.m3u"
 
 def scarica_fonte():
     r = requests.get(URL_FONTE)
     r.raise_for_status()
     return r.text
 
-def trova_blocchi(testo):
-    righe = testo.splitlines()
+def parse_blocchi(m3u_text):
+    lines = m3u_text.splitlines()
     blocchi = []
-    corrente = []
-    for r in righe:
-        if r.startswith("#EXTINF:"):
-            if corrente:
-                blocchi.append(corrente)
-            corrente = [r]
-        elif corrente:
-            corrente.append(r)
-    if corrente:
-        blocchi.append(corrente)
+    blocco_corrente = []
+    for line in lines:
+        if line.startswith("#EXTINF:"):
+            if blocco_corrente:
+                blocchi.append(blocco_corrente)
+            blocco_corrente = [line]
+        elif blocco_corrente:
+            blocco_corrente.append(line)
+    if blocco_corrente:
+        blocchi.append(blocco_corrente)
     return blocchi
 
-def filtra_blocchi(blocchi):
-    risultato = {}
-    for b in blocchi:
-        intest = b[0]
-        link = b[1] if len(b) > 1 else ""
-        for name_key, display in CANALI.items():
-            if display.lower() in intest.lower() and "tf1.fr" in intest.lower():
-                risultato[name_key] = b
-    return risultato
+def estrai_parte_link(link):
+    # Estrae la parte dopo main/
+    m = re.search(r"main/(.+)", link)
+    return m.group(1) if m else None
 
-def sostituisci(dest_path, blocchi_nuovi):
-    with open(dest_path, "r", encoding="utf-8") as f:
-        righe = f.readlines()
+def trova_blocchi_interessanti(blocchi):
+    """
+    Ritorna dict con chiave = nome canale esatto, valore = (EXTINF, link relativo dopo main/)
+    """
+    result = {}
+    for blocco in blocchi:
+        extinf = blocco[0]
+        if len(blocco) < 2:
+            continue
+        link = blocco[1]
+        for canale, tag in CANALI.items():
+            if canale.lower() in extinf.lower() and tag in extinf.lower():
+                parte_link = estrai_parte_link(link)
+                if parte_link:
+                    result[canale] = (extinf, parte_link)
+    return result
 
-    out = []
+def aggiorna_playlist_localmente(blocchi_fonte, blocchi_locali):
+    # crea dizionario dei blocchi da fonte: nome canale => parte_link
+    fonte_canali = trova_blocchi_interessanti(blocchi_fonte)
+
+    nuova_lista = []
     i = 0
-    while i < len(righe):
-        r = righe[i]
-        if r.startswith("#EXTINF:"):
-            blk = [r]
-            i += 1
-            while i < len(righe) and not righe[i].startswith("#EXTINF:"):
-                blk.append(righe[i]); i += 1
+    while i < len(blocchi_locali):
+        blocco = blocchi_locali[i]
+        extinf = blocco[0]
+        trovato = False
+        for canale in fonte_canali:
+            if canale.lower() in extinf.lower():
+                # aggiorna solo il link (seconda riga)
+                nuova_lista.append([extinf, "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/" + fonte_canali[canale][1]])
+                trovato = True
+                break
+        if not trovato:
+            nuova_lista.append(blocco)
+        i += 1
+    return nuova_lista
 
-            key = None
-            for k in blocchi_nuovi:
-                if k.lower() in blk[0].lower():
-                    key = k
-            if key:
-                out.extend(blocchi_nuovi[key])
-            else:
-                out.extend(blk)
-        else:
-            out.append(r)
-            i += 1
-
-    with open("playlist_aggiornata.m3u", "w", encoding="utf-8") as f:
-        f.writelines(out)
+def salva_playlist(blocchi, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for blocco in blocchi:
+            for line in blocco:
+                f.write(line + "\n")
 
 def main():
-    src = scarica_fonte()
-    blocchi = trova_blocchi(src)
-    blocchi_nuovi = filtra_blocchi(blocchi)
-    if blocchi_nuovi:
-        sostituisci("playlist.m3u", blocchi_nuovi)
-    else:
-        print("Nessun blocco nuovo trovato.")
+    # scarico la fonte ufficiale
+    fonte = scarica_fonte()
+    blocchi_fonte = parse_blocchi(fonte)
+
+    # leggo la playlist locale
+    with open(PATH_PLAYLIST, "r", encoding="utf-8") as f:
+        locale = f.read()
+    blocchi_locale = parse_blocchi(locale)
+
+    # aggiorno la playlist locale con i link nuovi
+    nuova_playlist = aggiorna_playlist_localmente(blocchi_fonte, blocchi_locale)
+
+    # salvo la playlist aggiornata
+    salva_playlist(nuova_playlist, "playlist_aggiornata.m3u")
+    print("Playlist aggiornata e salvata in playlist_aggiornata.m3u")
 
 if __name__ == "__main__":
     main()
