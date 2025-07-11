@@ -1,31 +1,31 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Rai1.it" tvg-name="Rai1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1024px-Rai_1_-_Logo_2016.svg.png" group-title="ITALIA",Rai 1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Rai2.it" tvg-name="Rai2.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/250px-Rai_2_-_Logo_2016.svg.png" group-title="ITALIA",Rai 2
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="Rai3.it" tvg-name="Rai3.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/250px-Rai_3_-_Logo_2016.svg.png" group-title="ITALIA",Rai 3
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="Rete4.it" tvg-name="Rete4.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/250px-Rete_4_-_Logo_2018.svg.png" group-title="ITALIA",Rete 4
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="Canale5.it" tvg-name="Canale5.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/250px-Canale_5_-_2018_logo.svg.png" group-title="ITALIA",Canale 5
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8
+https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Italia1.it" tvg-name="Italia1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Italia_1.svg/150px-Italia_1.svg.png" group-title="ITALIA",Italia 1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8
+https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="La7.it" tvg-name="La7.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/330px-LA7_-_Logo_2011.svg.png" group-title="ITALIA",LA7
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="Tv8.it" tvg-name="Tv8.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6d/TV8_Logo_2016.svg/330px-TV8_Logo_2016.svg.png" group-title="ITALIA",TV8
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/tv8montblanc/browser-HLS8/tv8montblanc.m3u8
+https://viamotionhsi.netplus.ch/live/eds/tv8montblanc/browser-HLS8/tv8montblanc.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="Nove.it" tvg-name="Nove.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nove_-_Logo_2017.svg/330px-Nove_-_Logo_2017.svg.png" group-title="ITALIA",NOVE
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://jmp2.uk/sam-FRBC800001X0.m3u8
+https://jmp2.uk/sam-FRBC800001X0.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Videolina_Logo.png/330px-Videolina_Logo.png" group-title="ITALIA",Videolina
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/videolina/videolina_live/videolina_live/playlist.m3u8
@@ -59,7 +59,7 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 
 #EXTINF:-1 tvg-chno="29" tvg-id="La7D.it" tvg-name="La7D.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/La7d_logo.svg/250px-La7d_logo.svg.png" group-title="ITALIA",LA7d
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 
 #EXTINF:-1 tvg-chno="30" tvg-id="La5.it" tvg-name="La5.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/250px-La5_Mediaset.svg.png" group-title="ITALIA",La 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -101,7 +101,7 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8
 https://amg16146-wbdi-amg16146c6-samsung-it-1839.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="42" tvg-id="Rai Gulp.it" tvg-name="Rai Gulp.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/330px-Rai_Gulp_-_Logo_2017.svg.png" group-title="ITALIA",Rai Gulp
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8
+https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8
 
 #EXTINF:-1 tvg-chno="43" tvg-id="Rai Yoyo.it" tvg-name="Rai Yoyo.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rai_Yoyo_-_Logo_2017.svg/330px-Rai_Yoyo_-_Logo_2017.svg.png" group-title="ITALIA",Rai Yoyo
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
@@ -195,88 +195,88 @@ https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10
 
 
 #EXTINF:-1 tvg-chno="100" tvg-id="Franceinfo.fr" tvg-name="Franceinfo.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/franceinfoblack100x100.png?h=100" tvg-country="FR" group-title="FRANCE",France Info
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/francetv/franceinfo.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 
 #EXTINF:-1 tvg-chno="101" tvg-id="TF1.fr" tvg-name="TF1.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="FRANCE",TF1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/DMNAhZMdNK7C/4pyWyGvieqnfKPZ2.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/DMNAhZMdNK7C/4pyWyGvieqnfKPZ2.m3u8
 
 #EXTINF:-1 tvg-chno="102" tvg-id="France 2.fr" tvg-name="France 2.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 2
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/francetv/backup/france2.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 
 #EXTINF:-1 tvg-chno="103" tvg-id="France 3.fr" tvg-name="France 3.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_3_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 3
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/francetv/backup/france3.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france3.m3u8
 
 #EXTINF:-1 tvg-chno="104" tvg-id="France 4.fr" tvg-name="France 4.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_4_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 4
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/francetv/france-4.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-4.m3u8
 
 #EXTINF:-1 tvg-chno="105" tvg-id="France 5.fr" tvg-name="France 5.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_5_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 5
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/francetv/backup/france5.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france5.m3u8
 
 #EXTINF:-1 tvg-chno="106"  tvg-id="M6.fr" tvg-name="M6.fr" tvg-logo="https://i.ibb.co/wgJTdGY/m6.png" group-title="FRANCE",M6
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
 
 #EXTINF:-1 tvg-chno="107" tvg-id="Arte.fr" tvg-name="Arte.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Arte_color.png?h=100" tvg-country="FR" group-title="FRANCE",Arte
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/DMNAhZMdNK7C/DKwXDwCs6Bx4b0Kg.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/DMNAhZMdNK7C/DKwXDwCs6Bx4b0Kg.m3u8
 
 #EXTINF:-1 tvg-chno="108" tvg-id="LCP 100%.fr" "tvg-name="LCP 100%.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/langfr-250px-Logo_LCP-AN_%282019%29.svg.png" tvg-country="FR" group-title="FRANCE",LCP 
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/francetv/lcp-public-senat.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-public-senat.m3u8
 
 #EXTINF:-1 tvg-chno="109" tvg-id="W9.fr" tvg-name="W9.fr" tvg-logo="https://i.ibb.co/LNRd253/w9.png" group-title="FRANCE",W9
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8
+https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8
 
 #EXTINF:-1 tvg-chno="110" tvg-id="TMC.fr "tvg-name="TMC.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TMC_color.png?h=100" tvg-country="FR" group-title="FRANCE",TMC
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/DMNAhZMdNK7C/RJsrcyWPt7imhprJ.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/DMNAhZMdNK7C/RJsrcyWPt7imhprJ.m3u8
 
 #EXTINF:-1 tvg-chno="111" tvg-id="TFX.fr" "tvg-name="TFX.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TFX_color.png?h=100" tvg-country="FR" group-title="FRANCE",TFX
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/DMNAhZMdNK7C/IQFxF973K3kqABB4.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/DMNAhZMdNK7C/IQFxF973K3kqABB4.m3u8
 
 #EXTINF:-1 tvg-chno="112" tvg-id="Gulli.fr" "tvg-name="Gulli.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/Gulli100x100Couleur.png?h=100" tvg-country="FR" group-title="FRANCE",Gulli
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/m6plus/gulli.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m6plus/gulli.m3u8
 
 #EXTINF:-1 tvg-chno="113" tvg-id="BFMTV.fr" "tvg-name="BFMTV.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/BFM_TV_color.png?h=100" tvg-country="FR" group-title="FRANCE",BFM TV
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
 
 #EXTINF:-1 tvg-chno="114" tvg-id="CNEWS.fr" "tvg-name="CNEWS.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CNews_color.png?h=100" tvg-country="FR" group-title="FRANCE",C NEWS
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/canalplus/cnews-clair-hd.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-clair-hd.m3u8
 
 #EXTINF:-1 tvg-chno="115" tvg-id="lci.fr" "tvg-name="lci.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="FRANCE",LCI
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/DMNAhZMdNK7C/M43etS7pgEILYy85.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/DMNAhZMdNK7C/M43etS7pgEILYy85.m3u8
 
 #EXTINF:-1 tvg-chno="117" tvg-id="CSTAR.fr" "tvg-name="CSTAR.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CStar_color.png?h=100" tvg-country="FR" group-title="FRANCE",CStar
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/canalplus/cstar-dm.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cstar-dm.m3u8
 
 #EXTINF:-1 tvg-chno="118" tvg-id="T18.fr" "tvg-name="T18.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/T18100x100.png?h=100" tvg-country="FR" group-title="FRANCE",T18
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/t18/t18-dm.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
 
 #EXTINF:-1 tvg-chno="120" tvg-id="TF1 Series Films.fr" "tvg-name="TF1 Series Films.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_Series_Films_color.png?h=100" tvg-country="FR" group-title="FRANCE",TF1 Séries Films
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/DMNAhZMdNK7C/ZnCVnH6LDI2znr.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/DMNAhZMdNK7C/ZnCVnH6LDI2znr.m3u8
 
 #EXTINF:-1 tvg-chno="121" tvg-id="LEquipe21.fr" "tvg-name="LEquipe21.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="FRANCE",LA CHAÎNE L'ÉQUIPE
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/DMNAhZMdNK7C/lukgCzSHRUlJvCCS.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/DMNAhZMdNK7C/lukgCzSHRUlJvCCS.m3u8
 
 #EXTINF:-1 tvg-chno="122" tvg-id="6ter.fr" "tvg-name="6ter.fr" tvg-logo="https://picserve.netplus.ch/channels/6ter.png" group-title="FRANCE",6TER
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8
+https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8
 
 #EXTINF:-1 tvg-chno="123" tvg-id="RMC Story.fr" "tvg-name="RMC Story.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_STORY_color.png?h=100" tvg-country="FR" group-title="FRANCE",RMC STORY
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
+https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
 
 #EXTINF:-1 tvg-chno="124" tvg-id="RMC Decouverte.fr" "tvg-name="RMC Decouverte.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_Decouverte_color.png?h=100" tvg-country="FR" group-title="FRANCE",RMC Decouverte
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rmcdecouverte/browser-HLS8/rmcdecouverte.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rmcdecouverte/browser-HLS8/rmcdecouverte.m3u8
 
 #EXTINF:-1 tvg-chno="125" tvg-id="Cherie 25.fr" "tvg-name="Cherie 25.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Cherie_25_color.png?h=100" tvg-country="FR" group-title="FRANCE",Chérie 25
 https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
 
 #EXTINF:-1 tvg-chno="140" tvg-id="Canal+.fr" "tvg-name="Canal+.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b7/Canal%2B2025.png/250px-Canal%2B2025.png" tvg-country="FR" group-title="FRANCE",CANAL+
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/streams/canalplus/canalplusclair-hd.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/canalplusclair-hd.m3u8
 
 #EXTINF:-1 tvg-chno="200" tvg-id="NDR Hamburg.de" "tvg-name="NDR Hamburg.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/NDR_Logo_mit_neuer_ARD-Dachmarke.svg/250px-NDR_Logo_mit_neuer_ARD-Dachmarke.svg.png" group-title="DEUTSCHLAND",NDR
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8
+https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8
 
 #EXTINF:-1 tvg-chno="201" tvg-id="Das Erste.de" "tvg-name="Das Erste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/250px-Das_Erste_2014.svg.png" group-title="DEUTSCHLAND",Das Erste
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8
 
 #EXTINF:-1 tvg-chno="202" tvg-id="ZDF.de" "tvg-name="ZDF.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/250px-ZDF_logo.svg.png" group-title="DEUTSCHLAND",ZDF
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8
 3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
 
@@ -284,7 +284,7 @@ https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
 https://mcdn-one.ard.de/ardone/hls/master.m3u8
 
 #EXTINF:-1 tvg-chno="204" tvg-id="ZDFneo.de" "tvg-name="ZDFneo.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ZDFneo_2017.svg/250px-ZDFneo_2017.svg.png" group-title="DEUTSCHLAND",ZDF Neo
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8
 
 #EXTINF:-1 tvg-chno="301" tvg-id="LA 1.es" "tvg-name="LA 1.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_La_1.svg/250px-Logo_La_1.svg.png" group-title="ESPAÑA",tvE La 1
 https://ztnr.rtve.es/ztnr/1688877.m3u8
@@ -305,7 +305,7 @@ https://tvpass.org/live/cbs-kcbs-los-angeles-ca/sd
 https://tvpass.org/live/cbs-kcbs-los-angeles-ca/hd
 
 #EXTINF:-1 tvg-chno="405" tvg-id="WNBC.us." "tvg-name="WNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/250px-NBC_logo_2022_%28vertical%29.svg.png" group-title="US",NBC
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8
+https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8
 
 #EXTINF:-1 tvg-chno="406" tvg-id="WNBC.us" "tvg-name="WNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/250px-NBC_logo_2022_%28vertical%29.svg.png" group-title="US",NBC HD
 https://tvpass.org/live/WNBCDT1/hd
@@ -329,7 +329,7 @@ https://tvpass.org/live/HBOEast/sd
 https://tvpass.org/live/HBOEast/hd
 
 #EXTINF:-1 tvg-chno="413" tvg-id="mtv.us" "tvg-name="mtv.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/250px-MTV_2021_%28brand_version%29.svg.png" group-title="US",MTV
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://jmp2.uk/sam-FRAJ3800004CC.m3u8
+https://jmp2.uk/sam-FRAJ3800004CC.m3u8
 
 #EXTINF:-1 tvg-chno="414" tvg-id="mtv.us" "tvg-name="mtv.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/250px-MTV_2021_%28brand_version%29.svg.png" group-title="US",MTV HD 
 https://tvpass.org/live/MTVEast/hd
@@ -370,26 +370,26 @@ https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/
 https://viamotionhsi.netplus.ch/live/eds/itv/browser-HLS8/itv.m3u8
 
 #EXTINF:-1 tvg-chno="604" tvg-id="Channel 4 HD.uk" "tvg-name="Channel 4 HD.uk" tvg-logo="https://picserve.netplus.ch/channels/channel4.png" group-title="UK", Channel 4
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
+https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-chno="605" tvg-id="Channel 5 HD.uk" "tvg-name="Channel 5 HD.uk" tvg-logo="https://picserve.netplus.ch/channels/channel5.png" group-title="UK",Channel 5
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8
+https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8
 
 #EXTINF:-1 tvg-chno="606" tvg-id="ITV2.uk" "tvg-name="ITV2.uk" tvg-logo="https://picserve.netplus.ch/channels/itv2.png" group-title="UK",ITV 2
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8
+https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8
 
 #EXTINF:-1 tvg-chno="609" tvg-id="BBC Four HD.uk" "tvg-name="BBC Four HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/250px-BBC_Four_logo_2021.svg.png" group-title="UK",BBC Four
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
 #EXTINF:-1 tvg-chno="610" tvg-id="ITV3.uk" "tvg-name="ITV3.uk" tvg-logo="https://picserve.netplus.ch/channels/itv3.png" group-title="UK",ITV 3
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
+https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
 
 #EXTINF:-1 tvg-chno="607" tvg-id="BBC Red Button 1.uk" "tvg-name="BBC Red Button 1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/250px-BBC_Red_Button_2021.svg.png" group-title="UK",BBC Red Button
 https://vs-hls-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:red_button_one/t=3840/v=pv14/b=5070016/main.m3u8
 
 #EXTINF:-1 tvg-chno="614" tvg-id="FILM4 HD.uk" "tvg-name="FILM4 HD.uk" tvg-logo="https://picserve.netplus.ch/channels/film4.png" group-title="UK",FILM 4
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/film4/browser-HLS8/film4.m3u8
+https://viamotionhsi.netplus.ch/live/eds/film4/browser-HLS8/film4.m3u8
 
 #EXTINF:-1 tvg-chno="623" tvg-id="BBC Three HD.uk" "tvg-name="BBC Three HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/250px-BBC_Three_2022.svg.png" group-title="UK",BBC Three
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/t=3840/v=pv14/b=5070016/main.m3u8
@@ -398,39 +398,39 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_
 https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
 
 #EXTINF:-1 tvg-chno="626" tvg-id="ITV4.uk" "tvg-name="ITV4.uk" tvg-logo="https://picserve.netplus.ch/channels/itv4.png" group-title="UK",ITV 4
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
+https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
 
 #EXTINF:-1 tvg-chno="701" tvg-id="RSILA1.ch" "tvg-name="RSILA1.ch" tvg-logo="https://picserve.netplus.ch/channels/rsila1hd.png"  group-title="SWITZERLAND",RSI La 1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
 
 #EXTINF:-1 tvg-chno="702" tvg-id="RSILA2.ch" "tvg-name="RSILA2.ch" tvg-logo="https://picserve.netplus.ch/channels/rsila2hd.png" group-title="SWITZERLAND",RSI La 2
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
 
 #EXTINF:-1 tvg-chno="703" tvg-id="SRF1.ch" "tvg-name="SRF1.ch" tvg-logo="https://picserve.netplus.ch/channels/srf1hd.png" tvg-country="DE" group-title="SWITZERLAND",SRF 1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8
 
 #EXTINF:-1 tvg-chno="704" tvg-id="SRF2.ch" "tvg-name="SRF2.ch" tvg-logo="https://picserve.netplus.ch/channels/srf2hd.png" tvg-country="DE" group-title="SWITZERLAND",SRF Zwei
 https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8
 
 #EXTINF:-1 tvg-chno="705" tvg-id="SRF Info.de" "tvg-name="SRF Info.de" tvg-logo="https://picserve.netplus.ch/channels/srfinfo.png" tvg-country="DE" group-title="SWITZERLAND",SRF Info
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/srfinfo/browser-HLS8/srfinfo.m3u8
+https://viamotionhsi.netplus.ch/live/eds/srfinfo/browser-HLS8/srfinfo.m3u8
 
 #EXTINF:-1 tvg-chno="706" tvg-id="RTS1.ch" "tvg-name="RTS1.ch" tvg-logo="https://picserve.netplus.ch/channels/rts1hd.png" tvg-country="FR" group-title="SWITZERLAND",RTS 1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8
 
 #EXTINF:-1 tvg-chno="707" tvg-id="RTS2.ch" "tvg-name="RTS2.ch" tvg-logo="https://picserve.netplus.ch/channels/rts2hd.png" tvg-country="FR" group-title="SWITZERLAND",RTS 2
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8
 
 #EXTINF:-1 tvg-chno="708" tvg-id="ORF1.ch" "tvg-name="ORF1.ch" tvg-logo="https://picserve.netplus.ch/channels/orf1.png" tvg-country="DE" group-title="SWITZERLAND",ORF 1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8
+https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8
 
 #EXTINF:-1 tvg-chno="709" tvg-id="ORF2.ch" "tvg-name="ORF2.ch" tvg-logo="https://picserve.netplus.ch/channels/orf2.png" tvg-country="DE" group-title="SWITZERLAND",ORF 2
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8
+https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8
 
 
 
 #EXTINF:-1 tvg-chno="801" tvg-logo="https://github.com/vroomvroomO/vroomvroomO.github.io/blob/main/tvm%20logo.png?raw=true" group-title="LAN",tvM
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
+https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
 
 #EXTINF:-1 tvg-chno="802" tvg-logo="https://raw.githubusercontent.com/vroomvroomO/vroomvroomO.github.io/refs/heads/main/tvm%20pink.png" group-title="LAN", tvM 
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
+https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
