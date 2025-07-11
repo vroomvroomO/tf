@@ -2,8 +2,8 @@ name: Aggiorna playlist
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Ogni ora
-  workflow_dispatch:      # Permette l'esecuzione manuale
+    - cron: '0 * * * *'  # ogni ora
+  workflow_dispatch:      # esecuzione manuale
 
 jobs:
   update-playlist:
@@ -18,8 +18,8 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Installa dipendenze (opzionale)
-      run: pip install -r requirements.txt || true
+    - name: Installa libreria requests
+      run: pip install requests
 
     - name: Esegui script aggiornamento
       run: python update_playlist.py
