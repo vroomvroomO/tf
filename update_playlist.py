@@ -1,10 +1,9 @@
 import requests
+import re
 
-# URL playlist principale
-source_url = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/paratv.m3u"
+URL_FONTE = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/paratv.m3u"
 
-# Lista canali da aggiornare: la chiave è come appare nel #EXTINF, case sensitive!
-channels_to_update = [
+CANALI_INTERESSATI = [
     "TF1 [tf1.fr]",
     "TF1 Series Films [tf1.fr]",
     "TMC [tf1.fr]",
@@ -13,70 +12,61 @@ channels_to_update = [
     "La Chaîne L'Équipe [tf1.fr]"
 ]
 
-def estrai_link_parte(link):
-    # Prende la parte dopo "main/"
-    if "main/" in link:
-        return link.split("main/")[1]
-    else:
-        return link.strip()
+def scarica_playlist():
+    r = requests.get(URL_FONTE)
+    r.raise_for_status()
+    return r.text
+
+def estrai_url_dopo_main(url_completo):
+    m = re.search(r"/main/(.+)$", url_completo)
+    if m:
+        return m.group(1)
+    return url_completo
 
 def aggiorna_playlist_locale(input_file, output_file):
-    # Legge la playlist locale
-    with open(input_file, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    playlist_fonte = scarica_playlist()
 
-    # Scarica la playlist sorgente
-    r = requests.get(source_url)
-    r.raise_for_status()
-    source_lines = r.text.splitlines()
-
-    # Dizionario canale -> link (solo parte dopo main/)
-    source_links = {}
-
-    # Parsing playlist sorgente
-    for i in range(len(source_lines)):
-        line = source_lines[i]
-        if line.startswith("#EXTINF"):
-            for ch in channels_to_update:
-                if ch in line:
-                    # Link è la riga dopo
-                    if i + 1 < len(source_lines):
-                        link = source_lines[i + 1]
-                        source_links[ch] = estrai_link_parte(link)
-
-    # Ora aggiorniamo lines (playlist locale)
-    updated_lines = []
+    canali_fonte = {}
+    righe = playlist_fonte.splitlines()
     i = 0
-    while i < len(lines):
-        line = lines[i]
-        if line.startswith("#EXTINF"):
-            updated_lines.append(line)
-            # Controllo se questa riga contiene un canale che vogliamo aggiornare
-            updated = False
-            for ch in channels_to_update:
-                if ch in line:
-                    # Se il canale è in source_links aggiorno la riga successiva
-                    if ch in source_links:
-                        # Sostituisco la riga successiva con il nuovo link "main/..."
-                        new_link = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/" + source_links[ch]
-                        updated_lines.append(new_link + "\n")
-                        i += 2
-                        updated = True
-                        break
-            if not updated:
-                # Canale non da aggiornare, copio la riga successiva originale
-                if i + 1 < len(lines):
-                    updated_lines.append(lines[i+1])
-                i += 2
+    while i < len(righe):
+        if righe[i].startswith("#EXTINF"):
+            nome = righe[i].split(",", 1)[1].strip()
+            url = righe[i+1].strip()
+            canali_fonte[nome] = url
+            i += 2
         else:
-            updated_lines.append(line)
             i += 1
 
-    # Scrivo il risultato in output_file
+    with open(input_file, "r", encoding="utf-8") as f:
+        righe_locale = f.readlines()
+
+    righe_aggiornate = []
+    i = 0
+    while i < len(righe_locale):
+        riga = righe_locale[i]
+
+        if riga.startswith("#EXTINF"):
+            nome_canale = riga.split(",", 1)[1].strip()
+            righe_aggiornate.append(riga)
+
+            if nome_canale in CANALI_INTERESSATI and "tf1.fr" in nome_canale:
+                url_originale = canali_fonte.get(nome_canale)
+                if url_originale:
+                    url_nuovo = estrai_url_dopo_main(url_originale)
+                    righe_aggiornate.append(url_nuovo + "\n")
+                else:
+                    righe_aggiornate.append(righe_locale[i+1])
+            else:
+                righe_aggiornate.append(righe_locale[i+1])
+
+            i += 2
+        else:
+            righe_aggiornate.append(riga)
+            i += 1
+
     with open(output_file, "w", encoding="utf-8") as f:
-        f.writelines(updated_lines)
+        f.writelines(righe_aggiornate)
 
-    print(f"Playlist aggiornata scritta in {output_file}")
-
-# Usa la funzione, inserendo i nomi dei file locali
-aggiorna_playlist_locale("playlist_locale.m3u", "playlist_locale_aggiornata.m3u")
+if __name__ == "__main__":
+    aggiorna_playlist_locale("playlist.m3u", "playlist_aggiornata.m3u")
