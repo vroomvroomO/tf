@@ -1,39 +1,31 @@
 import requests
-import re
 
 URL_FONTE = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/paratv.m3u"
+FILE_LOCALE = "playlist.m3u"
+FILE_AGGIORNATA = "playlist_aggiornata.m3u"
 
-def scarica_playlist_fonte():
-    response = requests.get(URL_FONTE)
+def scarica_playlist_fonte(url):
+    response = requests.get(url)
     response.raise_for_status()
-    return response.text
+    return response.text.splitlines()
 
-def estrai_parte_url(url):
-    # Estrae la parte dopo "/main/"
-    match = re.search(r'/main/(.+)$', url)
-    if match:
-        return match.group(1)
-    return url
-
-def aggiorna_playlist(input_file, output_file):
-    # Leggi la playlist fonte
-    fonte = scarica_playlist_fonte()
-    righe_fonte = fonte.splitlines()
-
-    # Costruisci dizionario nome_canale -> url_dopo_main
-    canali_fonte = {}
+def estrai_canali_fonte(righe_fonte):
+    canali = {}
     i = 0
     while i < len(righe_fonte):
         if righe_fonte[i].startswith("#EXTINF"):
-            nome_canale = righe_fonte[i].split(",",1)[1].strip()
+            nome = righe_fonte[i].split(",",1)[1].strip()
             url = righe_fonte[i+1].strip()
-            url_dopo_main = estrai_parte_url(url)
-            canali_fonte[nome_canale] = url_dopo_main
+            # Prendo solo la parte dell'url dopo "/main/"
+            parte_url = url.split("/main/")[-1]
+            url_pulito = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/" + parte_url
+            canali[nome] = url_pulito
             i += 2
         else:
             i += 1
+    return canali
 
-    # Leggi la playlist locale da aggiornare
+def aggiorna_playlist_locale(input_file, output_file, canali_fonte):
     with open(input_file, "r", encoding="utf-8") as f:
         righe_locale = f.readlines()
 
@@ -43,15 +35,33 @@ def aggiorna_playlist(input_file, output_file):
         riga = righe_locale[i]
 
         if riga.startswith("#EXTINF"):
-            nome_canale = riga.split(",",1)[1].strip()
+            nome_locale = riga.split(",",1)[1].strip()
             righe_aggiornate.append(riga)
 
-            # Riga URL subito dopo
             url_locale = righe_locale[i+1].strip()
 
-            # Se il nome canale contiene "tf1.fr" e esiste nella fonte aggiorna l'URL
-            if "tf1.fr" in nome_canale and nome_canale in canali_fonte:
-                url_nuovo = canali_fonte[nome_canale]
+            # Cerco nella fonte un canale che contiene nome_locale e la stringa chiave (es: 'tf1.fr', 'arte', ecc.)
+            url_nuovo = None
+            for nome_fonte, url in canali_fonte.items():
+                # Prendo la parte in parentesi quadre nel nome_fonte per sapere qual è la stringa chiave
+                # esempio: "TF1 [720p-tf1.fr]" -> cerca se nome_locale in nome_fonte e 'tf1.fr' in nome_fonte
+                if nome_locale in nome_fonte:
+                    # Estraggo la parte tra parentesi quadre, se presente
+                    start = nome_fonte.find('[')
+                    end = nome_fonte.find(']')
+                    if start != -1 and end != -1:
+                        tag = nome_fonte[start+1:end].lower()
+                        # Ad esempio se nome_locale è TF1 cerco "tf1.fr" nel tag
+                        if nome_locale.lower() in nome_fonte.lower() and nome_locale.lower() in tag:
+                            url_nuovo = url
+                            break
+                    else:
+                        # Se non ci sono parentesi, accetto se il nome_locale è contenuto
+                        if nome_locale.lower() in nome_fonte.lower():
+                            url_nuovo = url
+                            break
+
+            if url_nuovo:
                 righe_aggiornate.append(url_nuovo + "\n")
             else:
                 righe_aggiornate.append(righe_locale[i+1])
@@ -61,9 +71,14 @@ def aggiorna_playlist(input_file, output_file):
             righe_aggiornate.append(riga)
             i += 1
 
-    # Scrivi il file aggiornato
     with open(output_file, "w", encoding="utf-8") as f:
         f.writelines(righe_aggiornate)
 
+def main():
+    righe_fonte = scarica_playlist_fonte(URL_FONTE)
+    canali_fonte = estrai_canali_fonte(righe_fonte)
+    aggiorna_playlist_locale(FILE_LOCALE, FILE_AGGIORNATA, canali_fonte)
+    print(f"Playlist aggiornata salvata in {FILE_AGGIORNATA}")
+
 if __name__ == "__main__":
-    aggiorna_playlist("playlist.m3u", "playlist_aggiornata.m3u")
+    main()
