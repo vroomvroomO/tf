@@ -1,37 +1,89 @@
 import requests
 import re
 
-url_fonte = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/paratv.m3u"
+# Fonte principale
+URL_FONTE = "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/playlists/paratv/main/paratv.m3u"
 
-r = requests.get(url_fonte)
-lista_fonte = r.text
+# Lista canali da aggiornare e filtro su 'tf1.fr'
+CANALI = {
+    "TF1": "TF1",
+    "TF1 Séries Films": "TF1 Séries Films",
+    "TMC": "TMC",
+    "Arte": "Arte",
+    "LCI": "LCI",
+    "L'Équipe": "L'Équipe",
+}
 
-def trova_link_relativo(canale, testo):
-    pattern = re.compile(rf'#EXTINF:.*{canale}.*\n(https://raw\.githubusercontent\.com/Paradise-91/ParaTV/main/(.*))')
-    match = pattern.search(testo)
-    if match:
-        return match.group(2).strip()
+# Prefisso fisso nella tua lista
+PREFIX = "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/"
+
+def scarica_fonte():
+    r = requests.get(URL_FONTE)
+    r.raise_for_status()
+    return r.text
+
+def trova_blocchi(testo):
+    righe = testo.splitlines()
+    blocchi = []
+    corrente = []
+    for r in righe:
+        if r.startswith("#EXTINF:"):
+            if corrente:
+                blocchi.append(corrente)
+            corrente = [r]
+        elif corrente:
+            corrente.append(r)
+    if corrente:
+        blocchi.append(corrente)
+    return blocchi
+
+def filtra_blocchi(blocchi):
+    risultato = {}
+    for b in blocchi:
+        intest = b[0]
+        link = b[1] if len(b) > 1 else ""
+        for name_key, display in CANALI.items():
+            if display.lower() in intest.lower() and "tf1.fr" in intest.lower():
+                risultato[name_key] = b
+    return risultato
+
+def sostituisci(dest_path, blocchi_nuovi):
+    with open(dest_path, "r", encoding="utf-8") as f:
+        righe = f.readlines()
+
+    out = []
+    i = 0
+    while i < len(righe):
+        r = righe[i]
+        if r.startswith("#EXTINF:"):
+            blk = [r]
+            i += 1
+            while i < len(righe) and not righe[i].startswith("#EXTINF:"):
+                blk.append(righe[i]); i += 1
+
+            key = None
+            for k in blocchi_nuovi:
+                if k.lower() in blk[0].lower():
+                    key = k
+            if key:
+                out.extend(blocchi_nuovi[key])
+            else:
+                out.extend(blk)
+        else:
+            out.append(r)
+            i += 1
+
+    with open("playlist_aggiornata.m3u", "w", encoding="utf-8") as f:
+        f.writelines(out)
+
+def main():
+    src = scarica_fonte()
+    blocchi = trova_blocchi(src)
+    blocchi_nuovi = filtra_blocchi(blocchi)
+    if blocchi_nuovi:
+        sostituisci("playlist.m3u", blocchi_nuovi)
     else:
-        return None
+        print("Nessun blocco nuovo trovato.")
 
-link_tf1_rel = trova_link_relativo("TF1", lista_fonte)
-link_tfx_rel = trova_link_relativo("TFX", lista_fonte)
-
-if not link_tf1_rel or not link_tfx_rel:
-    print("Errore: link relativi TF1 o TFX non trovati nella lista fonte")
-    exit(1)
-
-prefisso = "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/"
-
-with open("playlist.m3u", "r", encoding="utf-8") as f:
-    lista_personale = f.read()
-
-def sostituisci_link_relativo(canale, nuovo_path_rel, testo):
-    pattern = re.compile(rf'(#EXTINF:.*{canale}.*\n){re.escape(prefisso)}.*')
-    return pattern.sub(rf'\1{prefisso}{nuovo_path_rel}', testo)
-
-lista_personale = sostituisci_link_relativo("TF1", link_tf1_rel, lista_personale)
-lista_personale = sostituisci_link_relativo("TFX", link_tfx_rel, lista_personale)
-
-with open("playlist_aggiornata.m3u", "w", encoding="utf-8") as f:
-    f.write(lista_personale)
+if __name__ == "__main__":
+    main()
