@@ -2,7 +2,7 @@ name: Aggiorna playlist da ParaTV
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '30 * * * *'
   workflow_dispatch:
 
 jobs:
