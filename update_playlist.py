@@ -8,6 +8,7 @@ KEYWORDS_CANALI = {
     "TF1": "tf1.fr",
     "Arte": "tf1.fr",
     "TMC": "tf1.fr",
+    "TFX": "tf1.fr",
     "LCI": "tf1.fr",
     "La Chaîne L'Équipe": "tf1.fr",
     "TF1 Series Films": "tf1.fr"
