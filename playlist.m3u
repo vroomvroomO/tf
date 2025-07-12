@@ -422,10 +422,10 @@ https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8
 #EXTINF:-1 tvg-chno="707" tvg-id="RTS2.ch" "tvg-name="RTS2.ch" tvg-logo="https://picserve.netplus.ch/channels/rts2hd.png" tvg-country="FR" group-title="SWITZERLAND",RTS 2
 https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8
 
-#EXTINF:-1 tvg-chno="708" tvg-id="ORF1.ch" "tvg-name="ORF1.ch" tvg-logo="https://picserve.netplus.ch/channels/orf1.png" tvg-country="DE" group-title="SWITZERLAND",ORF 1
+#EXTINF:-1 tvg-chno="708" tvg-id="ORF1.ch" "tvg-name="ORF1.ch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ORF_1_2019.svg/330px-ORF_1_2019.svg.png" tvg-country="DE" group-title="SWITZERLAND",ORF 1
 https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8
 
-#EXTINF:-1 tvg-chno="709" tvg-id="ORF2.ch" "tvg-name="ORF2.ch" tvg-logo="https://picserve.netplus.ch/channels/orf2.png" tvg-country="DE" group-title="SWITZERLAND",ORF 2
+#EXTINF:-1 tvg-chno="709" tvg-id="ORF2.ch" "tvg-name="ORF2.ch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/1920px-ORF2_logo_n.svg.png" tvg-country="DE" group-title="SWITZERLAND",ORF 2
 https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8
 
 
