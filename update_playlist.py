@@ -28,10 +28,10 @@ def estrai_canali_fonte(righe_fonte):
 
             idx = url.find("/refs/")
             if idx != -1:
-                parte_url = url[idx:]  # includo "/refs/..."
+                parte_url = url[idx:]
                 url_pulito = "https://raw.githubusercontent.com/Paradise-91/ParaTV" + parte_url
             else:
-                url_pulito = url  # fallback se non trova /refs/
+                url_pulito = url
 
             canali[nome] = url_pulito
             i += 2
@@ -53,29 +53,20 @@ def aggiorna_playlist_locale(input_file, output_file, canali_fonte):
             righe_aggiornate.append(riga)
 
             url_locale = righe_locale[i+1].strip()
-
-            keyword = None
-            for k in KEYWORDS_CANALI.keys():
-                if nome_locale.lower() == k.lower():
-                    keyword = KEYWORDS_CANALI[k].lower()
-                    break
-
             url_nuovo = None
-            if keyword:
-                for nome_fonte, url in canali_fonte.items():
-                    if nome_locale.lower() in nome_fonte.lower() and keyword in nome_fonte.lower():
-                        url_nuovo = url
-                        break
-            else:
-                for nome_fonte, url in canali_fonte.items():
-                    if nome_locale.lower() in nome_fonte.lower():
-                        url_nuovo = url
-                        break
+
+            for nome_target, keyword in KEYWORDS_CANALI.items():
+                if nome_locale.lower() == nome_target.lower():
+                    for nome_fonte, url in canali_fonte.items():
+                        if nome_target.lower() in nome_fonte.lower() and keyword.lower() in nome_fonte.lower():
+                            url_nuovo = url
+                            break
+                    break  # smetti di cercare dopo aver trovato il canale giusto
 
             if url_nuovo:
                 righe_aggiornate.append(url_nuovo + "\n")
             else:
-                righe_aggiornate.append(righe_locale[i+1])
+                righe_aggiornate.append(url_locale + "\n")
 
             i += 2
         else:
