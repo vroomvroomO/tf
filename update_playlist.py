@@ -11,7 +11,7 @@ KEYWORDS_CANALI = {
     "TFX": "tf1.fr",
     "LCI": "tf1.fr",
     "La Chaîne L'Équipe": "tf1.fr",
-    "TF1 Series Films": "tf1.fr"
+    "TF1 Séries Films": "tf1.fr"
 }
 
 def scarica_playlist_fonte(url):
