@@ -1,10 +1,4 @@
 #EXTM3U
 
-#EXTINF:10, 1
-https://github.com/vroomvroomO/tf/raw/refs/heads/main/assets/Comp2.ts
-
-#EXTINF:10, 2
-https://github.com/vroomvroomO/tf/raw/refs/heads/main/assets/cinema-1.ts
-
-#EXTINF:10, 3
+#EXTINF:10
 https://github.com/vroomvroomO/tf/raw/refs/heads/main/assets/tvm_red_static.ts
