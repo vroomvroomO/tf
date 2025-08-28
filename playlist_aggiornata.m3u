@@ -47,9 +47,6 @@ https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8
 #EXTINF:-1 tvg-chno="16" tvg-id="" tvg-name="" tvg-logo="https://www.tvdream.net/img/radio-televisione-sarda-cover.jpg" group-title="ITALIA",RTS Radio Televisione Sarda
 https://stream.ejatv.com/memfs/dff807e1-b3b2-49f5-92d6-5b178be4eb6d.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="" tvg-name="" tvg-logo="https://github.com/vroomvroomO/vroomvroomO.github.io/blob/main/tvm%20logo.png?raw=true" group-title="LAN",Index Test 
-https://raw.githubusercontent.com/vroomvroomO/tf/refs/heads/main/test.m3u8
-
 #EXTINF:-1 tvg-chno="20" tvg-id="20.it" tvg-name="20.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/250px-20_Mediaset_2018.svg.png" group-title="ITALIA",20 Mediaset
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
 
