@@ -349,8 +349,8 @@ https://tvpass.org/live/HBOEast/sd
 #EXTINF:-1 tvg-chno="412" tvg-id="hbo.us" "tvg-name="hbo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/250px-HBO_logo.svg.png" group-title="US",HBO HD
 https://tvpass.org/live/HBOEast/hd
 
-#EXTINF:-1 tvg-chno="413" tvg-id="mtv.us" "tvg-name="mtv.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/250px-MTV_2021_%28brand_version%29.svg.png" group-title="US",MTV provvisorio
-https://v14.thetvapp.to/hls/MTVEast/tracks-v2a1/mono.m3u8?token=8HjP1YwfkutF7US8kEVYLw&expires=1757309469&user_id=WHk0bERYM3lTNnlNdjdGcWw0b3FSV1locnk0ek9DV295SUJzVmlUSA==
+#EXTINF:-1 tvg-chno="413" tvg-id="mtv.us" "tvg-name="mtv.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/250px-MTV_2021_%28brand_version%29.svg.png" group-title="US",MTV
+https://tvpass.org/live/MTVEast/sd
 
 #EXTINF:-1 tvg-chno="414" tvg-id="mtv.us" "tvg-name="mtv.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/250px-MTV_2021_%28brand_version%29.svg.png" group-title="US",MTV HD 
 https://tvpass.org/live/MTVEast/hd
