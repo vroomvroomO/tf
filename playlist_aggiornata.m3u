@@ -218,7 +218,7 @@ https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 
 #EXTINF:-1 tvg-chno="101" tvg-id="TF1.fr" tvg-name="TF1.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="FRANCE",TF1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t9lVtvS3zG9Q/53PUWCyKruCd9h.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/IKQQ1hxUOsad/CbErkEnmRBIuB3N.m3u8
 
 #EXTINF:-1 tvg-chno="102" tvg-id="France 2.fr" tvg-name="France 2.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" tvg-country="FR" group-title="FRANCE",France 2
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
@@ -236,7 +236,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
 
 #EXTINF:-1 tvg-chno="107" tvg-id="Arte.fr" tvg-name="Arte.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Arte_color.png?h=100" tvg-country="FR" group-title="FRANCE",Arte
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t9lVtvS3zG9Q/EBZtaznDFTI6B4Tt.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/IKQQ1hxUOsad/mgzn7nNATfzQSgl.m3u8
 
 #EXTINF:-1 tvg-chno="108" tvg-id="LCP 100%.fr" "tvg-name="LCP 100%.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/langfr-250px-Logo_LCP-AN_%282019%29.svg.png" tvg-country="FR" group-title="FRANCE",LCP 
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lcp/lcp-dm.m3u8
@@ -245,10 +245,10 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lcp/lcp-dm.m3u
 https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8
 
 #EXTINF:-1 tvg-chno="110" tvg-id="TMC.fr "tvg-name="TMC.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TMC_color.png?h=100" tvg-country="FR" group-title="FRANCE",TMC
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t9lVtvS3zG9Q/0N43jjujxo8ksoHt.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/IKQQ1hxUOsad/B2CnZkUFSqF7Tke.m3u8
 
 #EXTINF:-1 tvg-chno="111" tvg-id="TFX.fr" "tvg-name="TFX.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TFX_color.png?h=100" tvg-country="FR" group-title="FRANCE",TFX
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t9lVtvS3zG9Q/oYFyb5WAh2AH0BE.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/IKQQ1hxUOsad/mBIQMtGUCbgfAlsk.m3u8
 
 #EXTINF:-1 tvg-chno="112" tvg-id="Gulli.fr" "tvg-name="Gulli.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/Gulli100x100Couleur.png?h=100" tvg-country="FR" group-title="FRANCE",Gulli
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m6plus/gulli.m3u8
@@ -260,7 +260,7 @@ https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
 
 #EXTINF:-1 tvg-chno="115" tvg-id="lci.fr" "tvg-name="lci.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="FRANCE",LCI
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t9lVtvS3zG9Q/fZVKyXissuvVHWwK.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/IKQQ1hxUOsad/Pq6Qfsl6w4iLmuc.m3u8
 
 #EXTINF:-1 tvg-chno="117" tvg-id="CSTAR.fr" "tvg-name="CSTAR.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CStar_color.png?h=100" tvg-country="FR" group-title="FRANCE",CStar
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cstar-dm.m3u8
@@ -269,10 +269,10 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/csta
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
 
 #EXTINF:-1 tvg-chno="120" tvg-id="TF1 Series Films.fr" "tvg-name="TF1 Series Films.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_Series_Films_color.png?h=100" tvg-country="FR" group-title="FRANCE",TF1 Séries Films
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t9lVtvS3zG9Q/GWcnJFmtOx6rINv.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/IKQQ1hxUOsad/NYwbeHMd0b1XcdS3.m3u8
 
 #EXTINF:-1 tvg-chno="121" tvg-id="LEquipe21.fr" "tvg-name="LEquipe21.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="FRANCE",LA CHAÎNE L'ÉQUIPE
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t9lVtvS3zG9Q/rfEbpHTw2qF3Zmk.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/IKQQ1hxUOsad/S1MKIzKl0cF0yXY7.m3u8
 
 #EXTINF:-1 tvg-chno="122" tvg-id="6ter.fr" "tvg-name="6ter.fr" tvg-logo="https://picserve.netplus.ch/channels/6ter.png" group-title="FRANCE",6TER
 https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8
